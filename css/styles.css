@@ -11167,3 +11167,11 @@ a:hover {
 #contact a:hover {
   color: #A47148 !important;
 }
+
+
+  /* Prevent iOS from recolouring phone numbers */
+#contact a,
+#contact p {
+  color: #D6A15C !important;
+  -webkit-text-fill-color: #D6A15C;
+}
