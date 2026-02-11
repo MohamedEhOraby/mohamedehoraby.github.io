@@ -11151,4 +11151,19 @@ a:hover {
     max-height: 420px;
   }
 
+
+/* Contact section colour fix */
+#contact,
+#contact p,
+#contact .lead {
+  color: #F5EBDD !important;
+}
+
+#contact a {
+  color: #D6A15C !important;
+  text-decoration: underline;
+}
+
+#contact a:hover {
+  color: #A47148 !important;
 }
